@@ -1,0 +1,40 @@
+Documento de Definição de Requisitos
+
+Projeto: Contrata-me
+Responsáveis: Vitor Reis, Lucas William, Leandra Friedrich
+Instrução de Recursos para desenvolver o Projeto Integrador.
+
+1. Introdução:
+ Um dos principais problemas que percebemos é a falta de comunicação entre clientes e prestadores de pequenos serviços. É muito comum vermos na rua placas para contratação de serviços mais simples como "Pintor Fulano, nº 519XXXX-XXXX", sem nenhum tipo de garantia ou verificação do serviço, o que acaba afastando o contato entre o prestador do serviço e o cliente, que opta sempre por alguém conhecido ou ele mesmo fazendo o serviço, podendo causar danos físicos ou materiais, algo comum por exemplo em serviços que envolvem eletricidade ou uma troca de telhado.
+ 
+2. Descrição do Propósito do Sistema:
+ O propósito geral do sistema é a contratação de pequenos serviços com mais facilidade e segurança, através de uma interface simples e objetiva em que você cliente, pode procurar pelo serviço que desejar mais próximo da sua casa, tendo sistema de avaliações e número de vezes que o serviço foi contratado por outros clientes. Facilitando assim a comunicação entre o contratante e o contratado, utilizando um tipo de "rede social para pequenos serviços" onde a visualização geral é muito maior, deixando claro todas as informações antes mesmo da contratação do serviço.
+
+3. Requisitos
+
+Identificador: RNF01 / Descrição: Sistema deve rodar em dispositivos móveis com 1GB de RAM++ / Prioridade: Média / Depende de: 
+Identificador: RNF02 / Descrição: Sistema com verificação de usuário com CPF e foto / Prioridade: Alta / Depende de: 
+Identificador: RNF03 / Descrição: Sistema com criptografia de dados para melhor segurança dos envolvidos / Prioridade: Alta / Depende de: RNF02
+Identificador: RNF04 / Descrição: Sistema criado em linguagem de baixo nível, como C++ ou Java / Prioridade: Alta / Depende de:
+Identificador: RNF05 / Descrição: Sistema com conexão rápida ao banco de dados, com acesso ao usuários através do CRUD / Prioridade: Alta / Depende de:
+Identificador: RNF06 / Descrição: Interface intuitiva de acesso fácil / Prioridade: Média / Depende de:
+Identificador: RNF07 / Descrição: Conexão com um sistema de pagamentos / Prioridade: Alta / Depende de:
+Identificador: RNF08 / Descrição: Sistema de integração tanto para desktop quanto para mobile / Prioridade: Alta / Depende de:
+Identificador: RNF09 / Descrição: Sistema com fácil escalabilidade, para crescimento conforme demanda / Prioridade: Média / Depende de:
+Identificador: RNF10 / Descrição: Sistema baseado em Orientação a Objetos, para fácil manutenção do projeto / Prioridade: Alta / Depende de: RNF04
+Identificador: RNF11 / Descrição: Sistema estável e confiável, para evitar possível perda de dados / Prioridade: Alta / Depende de:
+Identificador: RNF12 / Descrição: Estrutura de sistema baseado em MVC / Prioridade: Média / Depende de: RNF04
+
+
+Identificador: RF01 / Descrição: Tela de cadastro de prestadores de serviços / Prioridade: Alta / Depende de: RNF05
+Identificador: RF02 / Descrição: Tela de cadastro de clientes / Prioridade: Alta / Depende de: RNF05
+Identificador: RF03 / Descrição: Sistema de Login de Usuário, tanto cliente quanto prestador de serviços / Prioridade: Alta / Depende de: RF01, RF02
+Identificador: RF04 / Descrição: Tela Inicial para todos usuários / Prioridade: Alta / Depende de:
+Identificador: RF05 / Descrição: Tela de chat entre contratante e contratado / Prioridade: Baixa / Depende de: 
+Identificador: RF06 / Descrição: Tela de Pesquisa por serviços e contratados / Prioridade: Média / Depende de:
+Identificador: RF07 / Descrição: Tela de Perfil do contratado com suas capacitações / Prioridade: Média / Depende de: RF03
+Identificador: RF08 / Descrição: Tela de pesquisa baseado por serviços e localização / Prioridade: Média / Depende de: RF03
+Identificador: RF09 / Descrição: Tela de contratação do serviço, com uma revisão do serviço desejado / Prioridade: Alta / Depende de:
+Identificador: RF10 / Descrição: Tela de pagamentos e cadastro de cartões para facilitar pagamento / Prioridade: Média / Depende de: RNF07
+
+RF: Recurso Funcional / RNF: Recurso Não Funcional
