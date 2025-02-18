@@ -9,4 +9,5 @@ Um sistema online de contratações de pequenos serviços, que liga o cliente ao
 
 Descrição:
 Modelo lógico do projeto Contrata-me, baseado na prestação e contratação de serviços através da nossa plataforma.
+
 <img src="Captura de tela 2025-02-18 164005.png">
