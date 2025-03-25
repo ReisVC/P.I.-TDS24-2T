@@ -1,6 +1,9 @@
 # P.I.-TDS24-2T
 Repositório dedicado ao Projeto Integrador do Curso Técnico de Desenvolvimento de Sistema.
 
+Apresentação:
+https://www.canva.com/design/DAGiWLKjTHY/RsOvIoXuxHbAuXYguHvHZg/edit?utm_content=DAGiWLKjTHY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 Link do Trello:
 https://trello.com/invite/b/67aba168b82f1fc7c00f5c2a/ATTIc4e87484114c9587ae481a215de6b2809A4F7D5A/contrata-me
 
